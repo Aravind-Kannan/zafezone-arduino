@@ -23,7 +23,8 @@ int led = 13;
 const int buzzer = 11;
 int sizeOfData;
 int m = 0, flag = 1, f1 = 0;
-String phoneNum = "6384354006";
+// Enter Phone Number of SIM on the Arduino UNO Board
+String phoneNum = "6********6";
 boolean emg = false;
 
 void setup() {
@@ -231,7 +232,8 @@ void exec(String s) {
 
 void MakeCall()
 {
-  gsm.println("ATD+919445886543;");
+  // Enter Phone Number of SIM of the Parent's phone containing app
+  gsm.println("ATD+919********3;");
 
   Serial.println("MakeCall");
   delay(8000);
