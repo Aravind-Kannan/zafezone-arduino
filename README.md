@@ -1,6 +1,6 @@
 # Zafezone - Arduino
 
-Base Microprocessor: Arduino UNO
+Base Microprocessor: Arduino UNO R3
 
 Other modules:
 
@@ -16,8 +16,5 @@ Other modules:
 
 ## Physical Device
 
-![Bird's eye view of the device](documentation/bird-eye.png)
-
-- GSM Module: Red-colored SIM800L (top-left corner)
-- OLED Module: White on black display
-- Switch/Button: Black tap-key for emergencies
+![Bird's eye view of the device](documentation/bird-eye.jpg)
+![Back view of the device](documentation/back-view.jpg)
